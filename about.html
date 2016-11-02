@@ -5,38 +5,49 @@
 		<meta name="author" content="Su Jeong Shin">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<title>Su Jeong Shin-About</title>
+
+		<!-- Import jQuery and Javascript for image enlarging -->
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
 	</head>
 
 	<body>
-		<!-- Small Nav Menu -->
-		<section class="margin-10 padding-10">
-			<table class="right-align">
-					<tr>
-						<td class="td1"><a class="a_small" href="index.html">Home</a></td><td></td>
-				    	<td class="td2"><a class="a_small" href="about.html">About</a></td><td></td>
-				    	<td class="td3"><a class="a_small" href="resume.html">Resume</a></td><td></td>
-				    	<td class="td4"><a class="a_small" href="contact.html">Contact</a></td><td></td>
-					</tr>
-			</table>
-		</section>
+		<nav>
+			<a class="a_small bg-pink" href="index.html">Home</a>
+			<a class="a_small bg-grey" href="about.html">About</a>
+			<a class="a_small bg-grey" href="resume.html">Resume</a>
+			<a class="a_small bg-pink" href="contact.html">Contact</a>
+		</nav>
 
-		<!-- Title and Introduction section -->
- 		<section class="margin-10 padding-70 padding-150h">
- 			<h1 class="padding-10 font-45">About</h1>
+		<header>
+			<h1>About,</h1>
+		</header>
 
- 			<table width="800" class="padding-30 center-align">
- 				<tr>
- 					<td><img class="mypic" src="img/main.jpg"/></td>
- 					<td class="table-valign-top text-left">My name is Su Jeong Shin, or Crystal. I'm a fourth year Computer Science student at the University of California, Irvine.</td>
- 				</tr>
+		<section class="main-content">
+ 			<!-- Image -->
+ 			<div class="content-left">
+ 				<div class="inner-left">
+ 					<img class="mypic" src="img/mypic.jpg" />
+ 					<div id="largeImgPanel">
+				        <img id="largeImg"/>
+				    </div>
 
+ 				</div>
+ 			</div>
 
-		<!-- 	<p class="padding-30-all text-left">
-				<img class="mypic" src="img/main.jpg"/>
-				My name is Su Jeong Shin, or Crystal. I'm a fourth year Computer Science student at the University of California, Irvine.
-			</p>
-			 -->
-		</section>
+			<!-- Description -->
+			<div class="content-right">
+				<div class="inner-right">
+ 					My name is <span class="font-violet2">Su Jeong Shin</span>, or <span class="font-violet2">Crystal</span>.
+					<p>Currently a fourth year <span class="font-violet">Computer Science</span> student at the <span class="font-violet">University of California, Irvine</span>, specializating in Information. I am interested in both front-end and back-end development, as I have experience in both <span class="font-violet2">Big Data management</span> and <span class="font-violet2">Web development</span>.</p>
+					<p>My <span class="font-violet">skills</span> include...<br>
+						&emsp;&emsp;Programming Languages: <span class="font-violet2">Java</span>, SQL, C/C++, Python<br>
+						&emsp;&emsp;Web Development: HTML, CSS, JavaScript<br>
+						&emsp;&emsp;Big Data Management: Hadoop, Hive, Sqoop</p>
+					<p>Aside from school/career, I enjoy <span class="font-violet">photography</span>. I like taking pictures of myself, others, sky, flowers, animals, cars, buildings ... or anything! </p>
+				</div>
+			</div>
+		</section>	
 
 	</body>
 

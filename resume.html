@@ -8,89 +8,109 @@
 	</head>
 
 	<body>
-		<!-- Small Nav Menu -->
-		<section class="margin-10 padding-10">
-			<table class="right-align">
-					<tr>
-						<td class="td1"><a class="a_small" href="index.html">Home</a></td><td></td>
-				    	<td class="td2"><a class="a_small" href="about.html">About</a></td><td></td>
-				    	<td class="td3"><a class="a_small" href="resume.html">Resume</a></td><td></td>
-				    	<td class="td4"><a class="a_small" href="contact.html">Contact</a></td><td></td>
-					</tr>
-			</table>
+		<nav>
+			<a class="a_small bg-pink" href="index.html">Home</a>
+			<a class="a_small bg-grey" href="about.html">About</a>
+			<a class="a_small bg-grey" href="resume.html">Resume</a>
+			<a class="a_small bg-pink" href="contact.html">Contact</a>
+		</nav>
+
+		<header>
+			<h1>What I've done</h1>
+		</header>
+
+		<section class="main-content">
+			<h2>Expereince</h2>
+			<div class="content-left">
+				<div class="inner-left">
+					<img class="resumepic" src="img/lab.jpg">
+				</div>
+			</div>
+
+			<div class="content-right">
+				<div class="inner-right">
+					<span class="work-title">Lab Tutor</span> 
+					<p class="work-info">University of California, Irvine | <i>September 2016 - Present</i></p>
+					<p class="work-desc">Guide students in introductory Java programming course at the UCI Computer Science Department by answering questions in weekly scheduled lab sections</p>
+				</div>
+			</div>
 		</section>
+		<section class="main-content">
+			<div class="content-left">
+				<div class="inner-left">
+					<img class="resumepic" src="img/bkfs-grey.png">
+				</div>
+			</div>
 
-		<!-- Title and Introduction section -->
- 		<section class="margin-10 padding-70 padding-150h">
- 			<h1 class="padding-10 font-45">What I've done</h1>
+			<div class="content-right">
+				<div class="inner-right">
+					<span class="work-title">Data Science Intern</span> 
+					<p class="work-info">Black Knight Financial Services | <i>June 2016 - August 2016</i></p>
+					<p class="work-desc">Irvine, CA</p>
+					<ul class="work-desc">
+						<li>Managed real-estate/mortgage Big Data on company's Hadoop clusters using Hive, Sqoop and Java</li>
+						<li>Created a Web UI to monitor the data ingestion status using Apache Kafka message broker and REST API</li>
+						<li>Researched how Convolutional Neural Network could be used for house image recognition and prediction for sale (DenseCap)</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section class="main-content">
+			<div class="content-left">
+				<div class="inner-left">
+					<img class="resumepic" src="img/ecminer-grey.png">
+				</div>
+			</div>
 
-			<table width="800" class="table-rowspacing padding-30 center-align text-left">
-				<tr>
-					<td class="font-25"><b>Experience</b></td>
-				</tr>
-				<tr>
-					<td class="table-valign-top" width="30%"><img class="resumepic" src="img/lab.jpg"></td>
-					<td class="table-valign-top" width="70%">
-						<span class="font-22 font-violet">Lab Tutor</span> 
-						<p class="font-14 font-violet2">University of California, Irvine | <i>September 2016 - Present</i></p>
-						<p class="font-14">Guide students in introductory Java programming course at the UCI Computer Science Department by answering questions in weekly scheduled lab sections</p>
-					</td>
-				</tr>
-				<tr>
-					<td class="table-valign-top"><img class="resumepic" src="img/bkfs-grey.png"></td>
-					<td class="table-valign-top">
-						<span class="font-22 font-violet">Data Science Intern</span>
-						<p class="font-14 font-violet2">Black Knight Financial Services | <i>June 2016 - August 2016</i></p>
-						<p class="font-14">Irvine, CA</p>
-						<ul class="font-14">
-							<li>Managed real-estate/mortgage Big Data on company's Hadoop clusters using Hive, Sqoop and Java</li>
-							<li>Created a Web UI to monitor the data ingestion status using Apache Kafka message broker and REST API</li>
-							<li>Researched how Convolutional Neural Network could be used for house image recognition and prediction for sale (DenseCap)</li>
-						</ul>
-					</td>
-				</tr>
-				<tr>
-					<td class="table-valign-top"><img class="resumepic" src="img/ecminer-grey.png"></td>
-					<td class="table-valign-top">
-						<span class="font-22 font-violet">Software Development Intern</span>
-						<p class="font-14 font-violet2">ECMiner | <i>July 2016</i></p>
-						<p class="font-14">Seoul, South Korea</p>
-						<ul class="font-14">
-							<li>Provided data visualization for corporate clients using scatter plots and matrix scatter plots of client Big Data sets using OpenGL with C++, and WebGL with Javascript</li>
-							<li>Created coding standards documentation from completed projects to aid future interns' efforts</li>
-						</ul>
-					</td>
-				</tr>
-				<tr>
-					<td class="font-25"><b>Projects</b></td>
-				</tr>
-				<tr>
-					<td class="table-valign-top"><img class="resumepic" src="img/fabflix.png"></td>
-					<td class="table-valign-top">
-						<span class="font-22 font-violet">Movie Database Management Website "Fabflix"</span>
-						<p class="font-14 font-violet2"><i>January 2016 - March 2016</i></p>
-						<ul class="font-14">
-							<li>In a team of three throughout one quarter, developed a mini "Netflix" server called "Fabflix." Using Apache Tomcat Web server both on local machine and on Amazon Web Services (AWS) instance, "Fabflix" provides a Web-based Graphical User Interface (GUI) to browse, search and checkout movies that are associated with specific stars and genres</li>
-							<li>Basic "Fabflix" features are also applied to and are available as an Android app</li>
-							<li>Programmed using HTML, MySQL and Java Database Connectivity (JDBC), and Android Studio</li>
-						</ul>
-					</td>
-				</tr>
-				<tr>
-					<td class="table-valign-top"><img class="resumepic" src="img/searchengine.png"></td>
-					<td class="table-valign-top">
-						<span class="font-22 font-violet">Search Engine</span>
-						<p class="font-14 font-violet2"><i>February 2016 - March 2016</i></p>
-						<ul class="font-14">
-							<li>Collected a large set of data from the Web using Web Crawling technique, and developed an index and a search engine. The search engine retrieves a list of top five most relevant websites that contain user typed words from the developed index</li>
-							<li>Programmed using Java, along with JSON, MySQL and JSOUP to store and parse the crawled data</li>
-						</ul>
-					</td>
-				</tr>
+			<div class="content-right">
+				<div class="inner-right">
+					<span class="work-title">Software Development Intern</span> 
+					<p class="work-info">ECMiner | <i>July 2016</i></p>
+					<p class="work-desc">Seoul, South Korea</p>
+					<ul class="work-desc">
+						<li>Provided data visualization for corporate clients using scatter plots and matrix scatter plots of client Big Data sets using OpenGL with C++, and WebGL with Javascript</li>
+						<li>Created coding standards documentation from completed projects to aid future interns' efforts</li>					
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section class="main-content">
+			<h2>Projects</h2>
+			<div class="content-left">
+				<div class="inner-left">
+					<img class="resumepic" src="img/fabflix.png">
+				</div>
+			</div>
 
-			</table>
+			<div class="content-right">
+				<div class="inner-right">
+					<span class="work-title">Movie Database Management Website "Fabflix"</span> 
+					<p class="work-info"><i>January 2016 - March 2016</i></p>
+					<ul class="work-desc">
+						<li>In a team of three throughout one quarter, developed a mini "Netflix" server called "Fabflix." Using Apache Tomcat Web server both on local machine and on Amazon Web Services (AWS) instance, "Fabflix" provides a Web-based Graphical User Interface (GUI) to browse, search and checkout movies that are associated with specific stars and genres</li>
+						<li>Basic "Fabflix" features are also applied to and are available as an Android app</li>
+						<li>Programmed using HTML, MySQL and Java Database Connectivity (JDBC), and Android Studio</li>				
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section class="main-content">
+			<div class="content-left">
+				<div class="inner-left">
+					<img class="resumepic" src="img/searchengine.png">
+				</div>
+			</div>
 
-			
+			<div class="content-right">
+				<div class="inner-right">
+					<span class="work-title">Search Engine</span> 
+					<p class="work-info"><i>February 2016 - March 2016</i></p>
+					<ul class="work-desc">
+						<li>Collected a large set of data from the Web using Web Crawling technique, and developed an index and a search engine. The search engine retrieves a list of top five most relevant websites that contain user typed words from the developed index</li>
+						<li>Programmed using Java, along with JSON, MySQL and JSOUP to store and parse the crawled data</li>			
+					</ul>
+				</div>
+			</div>
 		</section>
 
 	</body>
