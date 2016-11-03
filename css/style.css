@@ -111,7 +111,7 @@ div#mypic-large-panel {
 
 	li.menu-list{ width: 100%; }
 	.content-left{ float: none; width: 100%; }
-	.content-right{ float: none; width: 100%;  }
+	.content-right{ float: none; width: 100%; padding: 3% 0; }
 
 	img.mypic{
 		width: 80%;
@@ -139,7 +139,7 @@ div#mypic-large-panel {
 
 	li.menu-list{ width: 45%; }
 	.content-left{ float: none; width: 100%; }
-	.content-right{ float: none; width: 100%; }
+	.content-right{ float: none; width: 100%; padding: 3% 0; }
 
 	img.mypic{
 		width: 100%;
