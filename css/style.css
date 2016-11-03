@@ -1,19 +1,19 @@
 /* Su Jeong Shin */
+
+/* Desktop  ----------- */
 body{ font-family: Verdana; color: #707B7C; text-align: center; }
 header{ padding-top: 6%; padding-bottom: 3%; }
 h1{ letter-spacing: 6px; margin: 0; font-size: 45px; }
 h2{ padding: 0% 11%; text-align: left; /*padding: 0 5%; */}
-
+nav{ float: right; }
 section.simple-content{ padding: 1.5% 4%; min-height: 300px; }
 section.main-content{ padding: 1.5% 7%; min-height: 230px; } 
-/*section.main-content-short{ padding: 1.5% 7%; min-height: 230px; }*/
+div.content-left{ float: left; width: 30%; clear: left; }
+div.content-right{ float: left; width: 70%; margin-right: 0; text-align: left; }
+div.inner-left{ padding: 0 5%; }
+div.inner-right{ padding: 0 5%; }
 hr{ clear: both; border: none; }
-nav{ float: right; }
 
-.content-left{ float: left; width: 30%; clear: left; }
-.content-right{ float: left; width: 70%; margin-right: 0; text-align: left; }
-.inner-left{ padding: 0 5%; }
-.inner-right{ padding: 0 5%; }
 
 /* Text */
 .work-title{ font-size: 22px; color: #9F5069; }
@@ -26,19 +26,15 @@ nav{ float: right; }
 ul.menu{ padding: 0; list-style: none; margin: 0 auto;}
 li.menu-list{ padding: 0; display:inline-block; width: 25%; }
 div.menu-padding{padding: 0.5%;}
-
-a.menu-big{
+.menu-big{
 	display: inline-block;
 	color: white;
 	text-decoration: none;
 	width: 90%;
 	height: 4%;
-/*	width: 15em;
-	height: 9em;*/
-	/*margin: 0.5%;	*/
 	line-height: 8em;
 }
-a.menu-small{
+.menu-small{
 	display: inline-block;
 	color: white;
 	text-decoration: none;
@@ -69,7 +65,6 @@ img.mypic:hover{
 
 img.workpic{
 	width: 75%;
-	/*width: 13em;*/
 	border-radius: 15px;
 }
 
@@ -103,15 +98,15 @@ div#mypic-large-panel {
 
 
 /* Media Queries */
-/* Mobile Phones  ----------- */
+/* Mobile Phone  ----------- */
 @media only screen and (min-width: 0px) and (max-width: 480px){
 
 	/* Color: Yellow */
 	.menu-color{background-color: #F7D098;} 
 
 	li.menu-list{ width: 100%; }
-	.content-left{ float: none; width: 100%; }
-	.content-right{ float: none; width: 100%; padding: 3% 0; }
+	div.content-left{ float: none; width: 100%; }
+	div.content-right{ float: none; width: 100%; padding: 3% 0; }
 
 	img.mypic{
 		width: 80%;
@@ -131,15 +126,15 @@ div#mypic-large-panel {
 
 
 
-/* Tablets  ----------- */
+/* Tablet  ----------- */
 @media only screen and (min-width: 481px) and (max-width: 768px) {
 
 	/* Color: Blue */
 	.menu-color{background-color: #79A8A9;}
 
 	li.menu-list{ width: 45%; }
-	.content-left{ float: none; width: 100%; }
-	.content-right{ float: none; width: 100%; padding: 3% 0; }
+	div.content-left{ float: none; width: 100%; }
+	div.content-right{ float: none; width: 100%; padding: 3% 0; }
 
 	img.mypic{
 		width: 100%;
