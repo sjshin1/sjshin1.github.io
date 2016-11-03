@@ -1,14 +1,14 @@
 // Original code from: http://alexapps.net/enlarge-thumbnail-image-mouse-click 
 function showImage(smSrc, lgSrc) {
-    document.getElementById('largeImg').src = smSrc;
+    document.getElementById('mypic-large').src = smSrc;
     showLargeImagePanel();
     unselectAll();
     setTimeout(function() {
-        document.getElementById('largeImg').src = lgSrc;
+        document.getElementById('mypic-large').src = lgSrc;
     }, 1)
 }
 function showLargeImagePanel() {
-    document.getElementById('largeImgPanel').style.display = 'block';
+    document.getElementById('mypic-large-panel').style.display = 'block';
 }
 function unselectAll() {
     if(document.selection)
@@ -22,7 +22,7 @@ $(document).ready(function(){
         showImage(this.src, this.src);
     });
 
-    $("#largeImgPanel").click(function(){
+    $("#mypic-large-panel").click(function(){
         this.style.display="none";
     });
 });
