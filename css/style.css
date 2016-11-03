@@ -2,10 +2,12 @@
 body{ font-family: Verdana; color: #707B7C; text-align: center; }
 header{ padding-top: 6%; padding-bottom: 3%; }
 h1{ letter-spacing: 6px; margin: 0; font-size: 45px; }
-h2{ text-align: left; padding: 0 5%; }
+h2{ padding: 0% 11%; text-align: left; /*padding: 0 5%; */}
 
-section.simple-content{ padding: 1.5% 4%; min-height: 400px; }
-section.main-content{ padding: 1.5% 7%; min-height: 230px; }
+section.simple-content{ padding: 1.5% 4%; min-height: 300px; }
+section.main-content{ padding: 1.5% 7%; min-height: 230px; } 
+/*section.main-content-short{ padding: 1.5% 7%; min-height: 230px; }*/
+hr{ clear: both; border: none; }
 nav{ float: right; }
 
 .content-left{ float: left; width: 30%; clear: left; }
@@ -41,7 +43,7 @@ a.menu-small{
 	color: white;
 	text-decoration: none;
 }
-.menu-color{ background-color: #F0D8DB; }
+.menu-color{ background-color: #F6CAC9; }
 .menu-color:hover{background-color: #C48189; }
 .menu-grey{ background-color: #B2BABB; }
 .menu-grey:hover{background-color: #666362; }
@@ -65,7 +67,7 @@ img.mypic:hover{
 	-webkit-filter: grayscale(0);
 }
 
-img.resumepic{
+img.workpic{
 	width: 75%;
 	/*width: 13em;*/
 	border-radius: 15px;
