@@ -4,7 +4,7 @@
 body{ font-family: Verdana; color: #707B7C; text-align: center; }
 header{ padding-top: 6%; padding-bottom: 3%; }
 h1{ letter-spacing: 6px; margin: 0; font-size: 45px; }
-h2{ padding: 0% 11%; text-align: left; /*padding: 0 5%; */}
+h2{ padding: 0% 9%; text-align: left; /*padding: 0 5%; */}
 nav{ float: right; }
 section.simple-content{ padding: 1.5% 4%; min-height: 300px; }
 section.main-content{ padding: 1.5% 7%; min-height: 230px; } 
@@ -19,6 +19,7 @@ hr{ clear: both; border: none; }
 .work-title{ font-size: 22px; color: #9F5069; }
 .work-info{ font-size: 14px; color: #B17179; }
 .work-desc{ font-size: 14px;}
+.final-desc{ font-size: 14px; text-align: left;}
 .font-violet{ color: #9F5069; }
 .font-violet2{ color: #B17179; }
 
@@ -66,6 +67,11 @@ img.mypic:hover{
 img.workpic{
 	width: 75%;
 	border-radius: 15px;
+}
+
+img.finalpic{
+	width: 100%;
+	border-radius: 10px;
 }
 
 img.contactpic{
